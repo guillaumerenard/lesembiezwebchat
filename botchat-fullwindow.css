@@ -1,0 +1,15 @@
+@media (max-width: 450px) {
+  /*.wc-card {
+        border: $card_borderWidth solid #d2dde5;
+        width: $cardWidth - 2 * ($card_padding + $card_borderWidth);
+    }*/
+  .wc-adaptive-card {
+    width: 290px; } }
+
+@media (min-width: 768px) {
+  /*.wc-card {
+        border: $card_borderWidth solid #d2dde5;
+        width: $cardWidth - 2 * ($card_padding + $card_borderWidth);
+    }*/
+  .wc-adaptive-card {
+    width: 290px; } }
