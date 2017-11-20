@@ -23,7 +23,7 @@ button, button:hover {
     background: #f1f1f1;
     font: 400 16px/22px 'Barlow', Arial; }
 
-    #content {
+    .content {
       position: relative;
       min-height: 500px;
     }
@@ -171,7 +171,7 @@ button, button:hover {
     /*box-shadow: 0 0 10px #999;*/
     height: 90%;
     width: inherit !important;
-    max-width: 720px; }
+    max-width: 750px; }
   /* messages */
   .wc-message-wrapper {
     animation: animationFrames 2s;
