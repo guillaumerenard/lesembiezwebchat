@@ -249,8 +249,8 @@ button, button:hover {
       background-color: #fff;
       color: #ff5252; }
     .wc-card button:active {
-      background-color: #3a96dd;
-      border-color: #3a96dd;
+      background-color: #ff5252;
+      border: 0;
       color: #ffffff; }
     .wc-card.receipt table {
       border-collapse: collapse;
