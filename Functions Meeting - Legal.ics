@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Romance Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Audrey-Roch HOUSSOU";RSVP=TRUE:mailto:arhoussou@expertime.com
+ATTENDEE;CN="Florent CERFON";RSVP=TRUE:mailto:fcerfon@expertime.com
+ATTENDEE;CN="Nicolas GUALTIERI";RSVP=TRUE:mailto:ngualtieri@expertime.com
+ATTENDEE;CN="Servane LE BRAZIDEC";RSVP=TRUE:mailto:sbrazidec@expertime.com
+ATTENDEE;CN="Paul FORTIN";RSVP=TRUE:mailto:pfortin@expertime.com
+ATTENDEE;CN="François de CAMBOURG";RSVP=TRUE:mailto:fcambourg@expertime.co
+	m
+ATTENDEE;CN="Louis CAILLEUX";RSVP=TRUE:mailto:lcailleux@expertime.com
+ATTENDEE;CN="Théo LATASTE";RSVP=TRUE:mailto:tlataste@expertime.com
+ATTENDEE;CN="Audrey CHAMBRIER";RSVP=TRUE:mailto:achambrier@expertime.com
+CLASS:PUBLIC
+CREATED:20171120T143902Z
+DESCRIPTION: \n\n
+DTEND;TZID="Romance Standard Time":20180402T183000
+DTSTAMP:20161019T181731Z
+DTSTART;TZID="Romance Standard Time":20180402T143000
+LAST-MODIFIED:20171120T143902Z
+ORGANIZER;CN="Jérémy BOUDIER":mailto:jboudier@expertime.com
+PRIORITY:5
+RECURRENCE-ID;TZID="Romance Standard Time":20171120T094500
+SEQUENCE:0
+SUMMARY;LANGUAGE=fr:Functions Meeting - Legal
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000806621D2452AD201000000000000000
+	010000000A6CE0F7ACDC6094C838DA3BA79143BEA
+X-ALT-DESC;FMTTYPE=text/html:<html>\n<head>\n\n<meta content="text/html\; c
+	harset=iso-8859-1">\n<meta content="text/html\; charset=iso-8859-1">\n<met
+	a name="Generator" content="Microsoft Word 15 (filtered medium)">\n<style>
+	\n<!--\n@font-face\n	{font-family:"Cambria Math"}\n@font-face\n	{font-fami
+	ly:Calibri}\np.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{margin:0cm\;\n	
+	margin-bottom:.0001pt\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans
+	-serif}\na:link\, span.MsoHyperlink\n	{color:#0563C1\;\n	text-decoration:u
+	nderline}\na:visited\, span.MsoHyperlinkFollowed\n	{color:#954F72\;\n	text
+	-decoration:underline}\np.msonormal0\, li.msonormal0\, div.msonormal0\n	{m
+	argin-right:0cm\;\n	margin-left:0cm\;\n	font-size:12.0pt\;\n	font-family:"
+	Times New Roman"\,serif}\nspan.EmailStyle18\n	{font-family:"Calibri"\,sans
+	-serif\;\n	color:windowtext}\n.MsoChpDefault\n	{font-size:10.0pt\;\n	font-
+	family:"Calibri"\,sans-serif}\n@page WordSection1\n	{margin:70.85pt 70.85p
+	t 70.85pt 70.85pt}\n-->\n</style>\n</head>\n<body lang="FR" link="#0563C1"
+	 vlink="#954F72">\n<div class="WordSection1">\n<p class="MsoNormal">&nbsp\
+	;</p>\n</div>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
