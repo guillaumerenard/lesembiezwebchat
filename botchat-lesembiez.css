@@ -218,7 +218,7 @@ button, button:hover {
     margin-top: 5px; }
   /* cards */
   .wc-carousel-item .wc-card.wc-adaptive-card {
-    background: #fff; }
+    background: #fff; } 
   .wc-card {
     /*background-color: $c01;*/ }
     .wc-card .non-adaptive-content {
