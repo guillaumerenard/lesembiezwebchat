@@ -73,6 +73,7 @@ button, button:hover {
     right: 10px;
     top: 0;
     transition: transform 0.2s cubic-bezier(0, 0, 0.5, 1);
+    border: 10px solid #f9f9f9;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.6); }
     .wc-message-groups::-webkit-scrollbar-track {
