@@ -22,6 +22,12 @@ button, button:hover {
   body {
     background: #f1f1f1;
     font: 400 16px/22px 'Barlow', Arial; }
+
+    #content {
+      position: relative;
+      min-height: 500px;
+    }
+
   .wc-app button {
     background-color: #0063b1;
     border: 1px solid #cccccc;
