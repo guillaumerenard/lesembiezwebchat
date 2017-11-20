@@ -358,7 +358,7 @@ button, button:hover {
   .wc-carousel {
     position: relative; }
     .wc-carousel button.scroll {
-      background-color: #d2dde5;
+      background: #d2dde5;
       height: 35px;
       overflow: hidden;
       padding: 3px;
@@ -367,7 +367,8 @@ button, button:hover {
       width: 35px;
       border: 0;
       cursor: pointer;
-      border-radius: 50%; }
+      border-radius: 50%;
+      box-shadow: none; }
     .wc-carousel button.scroll:disabled {
       display: none; }
     .wc-carousel button.scroll:hover {
