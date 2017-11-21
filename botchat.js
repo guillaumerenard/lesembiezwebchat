@@ -18082,7 +18082,7 @@ var localizedStrings = {
         messageFailed: "envoi impossible",
         messageSending: "envoi",
         timeSent: " à %1",
-        consolePlaceholder: "Écrivez votre message...",
+        consolePlaceholder: "Type your message...",
         listeningIndicator: "Écoute..."
     },
     'es-es': {
